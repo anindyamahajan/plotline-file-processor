@@ -54,6 +54,7 @@ To simulate the complete flow, you can expose a simple POST endpoint locally tha
 - Uses a worker pool for concurrent processing.
 - Interfaces with Redis to track processed data.
 - Rate limits API requests to avoid exceeding quotas.
+- As it uses Kafka consumer group, it is scalable and multiple instances can be brought up in case of queue build up.
 - Logs informative and error messages for troubleshooting.
 
 ## Notes
@@ -64,4 +65,6 @@ To simulate the complete flow, you can expose a simple POST endpoint locally tha
 
 ---
 
-For more information or support, refer to the project documentation or contact the project maintainers.
+## TODO
+
+Refactor code into packages. Inlcude unit tests.
