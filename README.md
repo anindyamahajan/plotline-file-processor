@@ -7,7 +7,7 @@ This service is designed to process CSV files using Kafka and Redis, built using
 
 - Go 1.20 or higher
 - Kafka 3.6.1
-- Redis server
+- Redis server 7.2.1
 
 ## Configuration
 
